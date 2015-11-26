@@ -6,7 +6,7 @@ Meus arquivos pessoais de configuração.
 
 Clone o repositório para sua Home
 
-`git clone https://github.com/mbodock/dotfiles ~/.dotfiles`
+`git clone https://github.com/gagustavo/dotfiles ~/.dotfiles`
 
 Em seguida execute o script de instalação:
 
