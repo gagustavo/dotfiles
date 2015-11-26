@@ -4,23 +4,24 @@ set PATH ~/bin/ $PATH
 set PATH ~/scripts/ $PATH
 
 # Incluindo SDK do android
-set PATH ~/work/.android-sdk/platform-tools $PATH
-set PATH ~/work/.android-sdk/tools $PATH
-set PATH ~/work/.android-sdk/build-tools/20.0.0 $PATH
-set ANDROID_HOME /home/marcus/work/.android-sdk/
-set ANDROID_TOOLS /home/marcus/work/.android-sdk/
-set ANDROID_PLATFORM_TOOLS /home/marcus/work/.android-sdk/
+set PATH ~/work/android-sdk/platform-tools $PATH
+set PATH ~/work/android-sdk/tools $PATH
+set PATH ~/work/android-sdk/build-tools/21.1.2 $PATH
+set ANDROID_HOME /home/joao/work/android-sdk/
+set ANDROID_TOOLS /home/joao/work/android-sdk/
+set ANDROID_PLATFORM_TOOLS /home/joao/work/android-sdk/
 
-set PATH ~/work/.jdk/bin/ $PATH
-set JAVA_HOME /home/marcus/work/.jdk/
+set PATH /usr/lib/jvm/java-7-openjdk-amd64/bin/ $PATH
+set JAVA_HOME /usr/lib/jvm/java-7-openjdk-amd64/
 set ANT_HOME /usr/bin/
-set CLASSPATH /home/marcus/work/.jdk/
+set CLASSPATH /usr/lib/jvm/java-7-openjdk-amd64/
+set EDITOR /usr/bin/vim
 
 # Configurando o terminal para 256 cores
 set TERM xterm-256color
 
 # Adicionando workon - Deve ser após modificar o path.
-. ~/work/fishenv/fishenv.fish
+. ~/work/FishEnv/fishenv.fish
 
 
 # Alias
@@ -38,29 +39,6 @@ end
 function mkcd
     mkdir $argv
     cd $argv
-end
-
-# Configurar git no fish
-set fish_git_dirty_color red
-set fish_git_not_dirty_color green
-
-function parse_git_branch
-  set -l branch (git branch 2> /dev/null | grep -e '\* ' | sed 's/^..\(.*\)/\1/')
-  set -l git_diff (git diff)
-
-  if test -n "$git_diff"
-    echo (set_color $fish_git_dirty_color)$branch(set_color normal)
-  else
-    echo (set_color $fish_git_not_dirty_color)$branch(set_color normal)
-  end
-end
-
-function fish_prompt
-  if test -d .git
-    printf '%s@%s %s%s%s:%s> ' (whoami) (hostname|cut -d . -f 1) (set_color $fish_color_cwd) (prompt_pwd) (set_color normal) (parse_git_branch)
-  else
-    printf '%s@%s %s%s%s> ' (whoami) (hostname|cut -d . -f 1) (set_color $fish_color_cwd) (prompt_pwd) (set_color normal)
-  end
 end
 
 # Por fim abre o tmux

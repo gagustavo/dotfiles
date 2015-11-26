@@ -1,7 +1,7 @@
 [user]
     # Altere para seu username e email
-	name = Marcus Vinicius
-	email = marcus.martins@sisqualis.com.br
+	name = João Gustavo
+	email = g@gustavo.in
 
 	colors = auto
 	signingkey = 11336987
@@ -13,7 +13,7 @@
 	ui = true
 
 [alias]
-    s = status -sb
+    s = status
 	get = pull origin master --no-commit
 	c = commit -am
 	dc = diff --check
