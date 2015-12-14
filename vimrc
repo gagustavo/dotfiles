@@ -16,26 +16,27 @@ set shell=bash
 
 "Plugin list to Vundle
 
-Plugin 'airblade/vim-gitgutter'
-Plugin 'altercation/vim-colors-solarized'
 Plugin 'bling/vim-airline'
-Plugin 'dag/vim-fish'
-Plugin 'ervandew/supertab'
-Plugin 'godlygeek/tabular'
-Plugin 'kien/ctrlp.vim'
-Plugin 'kien/rainbow_parentheses.vim'
-Plugin 'klen/python-mode'
-Plugin 'leafgarland/typescript-vim'
+Plugin 'altercation/vim-colors-solarized'
 Plugin 'mattn/emmet-vim'
-Plugin 'nvie/vim-flake8'
-Plugin 'plasticboy/vim-markdown'
-Plugin 'StanAngeloff/php.vim'
-Plugin 'scrooloose/nerdtree'
-Plugin 'scrooloose/syntastic'
-Plugin 'terryma/vim-multiple-cursors'
-Plugin 'tmhedberg/matchit'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
+Plugin 'kien/ctrlp.vim'
+Plugin 'ervandew/supertab'
+Plugin 'godlygeek/tabular'
+
+" Plugin 'airblade/vim-gitgutter'
+" Plugin 'dag/vim-fish'
+" Plugin 'kien/rainbow_parentheses.vim'
+" Plugin 'klen/python-mode'
+" Plugin 'leafgarland/typescript-vim'
+" Plugin 'nvie/vim-flake8'
+" Plugin 'plasticboy/vim-markdown'
+" Plugin 'StanAngeloff/php.vim'
+" Plugin 'scrooloose/nerdtree'
+" Plugin 'scrooloose/syntastic'
+" Plugin 'terryma/vim-multiple-cursors'
+" Plugin 'tmhedberg/matchit'
 
 call vundle#end()
 filetype plugin indent on    " required
