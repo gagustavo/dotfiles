@@ -1,7 +1,7 @@
 [user]
     # Altere para seu username e email
 	name = João Gustavo
-	email = g@gustavo.in
+	email = joao.gustavo@sisqualis.com.br
 
 	colors = auto
 	signingkey = 11336987
@@ -18,6 +18,7 @@
 	c = commit -am
 	dc = diff --check
     slog = log --all --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	tree = log --all --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
     remotes = remote -v
     tags = tag -l
     branches = branch -a
