@@ -6,7 +6,7 @@ set PATH ~/scripts/ $PATH
 # Incluindo SDK do android
 set PATH ~/work/android-sdk/platform-tools $PATH
 set PATH ~/work/android-sdk/tools $PATH
-set PATH ~/work/android-sdk/build-tools/21.1.2 $PATH
+set PATH ~/work/android-sdk/build-tools/23.0.2 $PATH
 set ANDROID_HOME /home/joao/work/android-sdk/
 set ANDROID_TOOLS /home/joao/work/android-sdk/
 set ANDROID_PLATFORM_TOOLS /home/joao/work/android-sdk/
