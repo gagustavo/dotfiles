@@ -91,6 +91,7 @@ alias la='ls -A'
 alias l='ls -CF'
 alias get='git pull origin master --no-commit'
 alias phpunit="phpunit --colors"
+alias md5sum="md5 -r"
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -116,10 +117,12 @@ if ! shopt -oq posix; then
   fi
 fi
 
+if [ -f `brew --prefix`/etc/bash_completion ]; then
+    . `brew --prefix`/etc/bash_completion
+fi
+
 
 #mbodock
-source ~/programs/scripts/.git-prompt.sh
-PS1="\[$GREEN\]\t\[$RED\]-\[$BLUE\]\u\[$YELLOW\]\[$YELLOW\]\w\[\033[m\]\[$MAGENTA\]\$(__git_ps1)\[$WHITE\]\$ "
 
 [[ -z "$TMUX" ]] && exec tmux
 

@@ -1,10 +1,10 @@
 [user]
     # Altere para seu username e email
 	name = João Gustavo
-	email = joao.gustavo@sisqualis.com.br
+	email = gagu2030@gmail.com
 
 	colors = auto
-	signingkey = 11336987
+	signingKey = 3B915EE2
 
 [core]
 	editor = vim
@@ -37,3 +37,7 @@
 
 [push]
 	default = simple
+[commit]
+	gpgsign = true
+[tag]
+	gpgsign = true
