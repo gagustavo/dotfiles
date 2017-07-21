@@ -11,10 +11,10 @@ set ANDROID_HOME /home/joao/work/android-sdk/
 set ANDROID_TOOLS /home/joao/work/android-sdk/
 set ANDROID_PLATFORM_TOOLS /home/joao/work/android-sdk/
 
-set PATH /usr/lib/jvm/java-7-openjdk-amd64/bin/ $PATH
-set JAVA_HOME /usr/lib/jvm/java-7-openjdk-amd64/
+# set PATH /usr/lib/jvm/java-7-openjdk-amd64/bin/ $PATH
+# set JAVA_HOME /usr/lib/jvm/java-7-openjdk-amd64/
 set ANT_HOME /usr/bin/
-set CLASSPATH /usr/lib/jvm/java-7-openjdk-amd64/
+# set CLASSPATH /usr/lib/jvm/java-7-openjdk-amd64/
 set EDITOR /usr/bin/vim
 
 # Configurando o terminal para 256 cores
