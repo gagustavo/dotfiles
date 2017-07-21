@@ -170,7 +170,7 @@ if isdirectory(expand($HOME . '/.vim/bundle/Vundle.vim/'))
     if isdirectory(expand($HOME . '/.vim/bundle/vim-airline/'))
         let g:airline#extensions#tabline#enabled = 1
         let g:airline_powerline_fonts = 1
-        let g:airline_theme = 'powerlineish'
+        let g:airline_theme = 'dark'
         set laststatus=2
     endif
 endif
