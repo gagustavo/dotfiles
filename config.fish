@@ -4,6 +4,7 @@
 set PATH ~/work/.android-sdk/platform-tools $PATH
 set PATH ~/work/.android-sdk/tools $PATH
 set PATH ~/work/.android-sdk/build-tools/23.0.2 $PATH
+set PATH /usr/local/opt/coreutils/libexec/gnubin $PATH
 set ANDROID_HOME ~/work/.android-sdk/
 set ANDROID_TOOLS ~/work/.android-sdk/
 set ANDROID_PLATFORM_TOOLS ~/work/.android-sdk/
@@ -14,7 +15,9 @@ set PATH /usr/local/sbin $PATH
 set --export NODE_PATH /usr/local/lib/node_modules
 
 # Alias
-alias md5sum="md5 -r"
+# alias md5sum="md5 -r"
 
 # Adicionando workon - Deve ser após modificar o path.
 . ~/work/FishEnv/fishenv.fish
+
+# tmux -2

@@ -41,3 +41,5 @@
 	gpgsign = true
 [tag]
 	gpgsign = true
+[gpg]
+	program = gpg1

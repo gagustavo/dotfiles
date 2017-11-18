@@ -91,7 +91,7 @@ alias la='ls -A'
 alias l='ls -CF'
 alias get='git pull origin master --no-commit'
 alias phpunit="phpunit --colors"
-alias md5sum="md5 -r"
+# alias md5sum="md5 -r"
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -124,7 +124,7 @@ fi
 
 #mbodock
 
-[[ -z "$TMUX" ]] && exec tmux
+# [[ -z "$TMUX" ]] && exec tmux
 
 
 #Funções
