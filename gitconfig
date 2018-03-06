@@ -4,7 +4,7 @@
 	email = gagu2030@gmail.com
 
 	colors = auto
-	signingKey = 3B915EE2
+    signingkey = 3B915EE2
 
 [core]
 	editor = vim
