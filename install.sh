@@ -15,9 +15,6 @@ if [ -d ~/.dotfiles ]; then
         ln -fs ~/.dotfiles/config.fish ~/.config/fish/config.fish
     fi
 
-    get_git_config
-    sed -i "s/name\s=\s.*$/name = $git_username/g" ~/.dotfiles/gitconfig
-    sed -i "s/email\s=\s.*$/email = $git_usermail/g" ~/.dotfiles/gitconfig
     ln -fs ~/.dotfiles/gitconfig ~/.gitconfig
 
     ln -fs ~/.dotfiles/tmux.conf ~/.tmux.conf

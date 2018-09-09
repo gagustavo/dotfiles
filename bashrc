@@ -150,13 +150,6 @@ fi
 
 export MOZILLA_FIVE_HOME=/usr/lib/mozilla
 
-
-# Test cordova
-export PATH=~/work/android/adt-bundle/sdk/platform-tools:$PATH
-export PATH=~/work/android/adt-bundle/sdk/tools:$PATH
-export ANDROID_HOME=/home/marcus/work/android/adt-bundle/sdk
-export ANDROID_TOOLS=/home/marcus/work/android/adt-bundle/sdk/tools
-export ANDROID_PLATFORM_TOOLS=/home/marcus/work/android/adt-bundle/sdk/platform-tools
-
-export JAVA_HOME=/home/marcus/work/java/jdk
-export ANT_HOME=/usr/bin
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
