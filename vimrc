@@ -27,6 +27,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'jeroenbourgois/vim-actionscript'
+Plugin 'tpope/vim-characterize'
 
 " Plugin 'airblade/vim-gitgutter'
 " Plugin 'dag/vim-fish'
